@@ -1,0 +1,24 @@
+/* Show progress to indicate column header is clickable */
+thead th span{
+    cursor: progress;
+}
+
+/* Following classes allows for table to be scrollable */
+tbody {
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 65vh;
+    box-shadow: 3px 3px 25px #616060;
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.email {
+    overflow-x: auto;
+}
